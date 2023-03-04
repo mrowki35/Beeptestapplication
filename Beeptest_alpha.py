@@ -1,23 +1,27 @@
 from kivy.app import App
-from kivy.uix.label import Label
 from kivy.lang import Builder
-from kivy.uix.button import Button
-from kivy.uix.floatlayout import FloatLayout
-from kivy.uix.carousel import Carousel
+from kivy.uix.screenmanager import ScreenManager
+from kivy.uix.screenmanager import Screen
 
-Builder.load_file("beeptest.kv")
-class Start(Carousel):
-    def on_press(self):
-        
-        self.ids.middle.add_widget(Button())
+
+
+
+class WindowManager(ScreenManager):
+    pass
+
+class Main_Screen(Screen):
+    pass
+
+
+kv=Builder.load_file("beeptest.kv")
 
 class BeeptestApp(App):
         
     def build(self):
-        return Start()
+        return kv
 
-
-BeeptestApp().run()
+if __name__=='__main__':
+    BeeptestApp().run()
 
 
 
