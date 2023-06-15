@@ -1,0 +1,70 @@
+#:kivy 2.1.0
+#:import utils kivy.utils
+
+WindowManager:
+    FirstWindow:
+    #SecondWindow:
+<FirstWindow>:
+    name: 'first'
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: "backround_xd.jpg"
+    FloatLayout:
+        Label:
+            text: "1"
+            id: level_counting_label
+            pos_hint: {'center_x': .5, 'center_y': .15}
+            size_hint:(0.5,0.15)
+            bold:True
+            italic:True
+            font_size:32
+            color: 0,0,0,1
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 0.2
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+        Label:
+            id: stage_counting_label
+            pos_hint: {'center_x': .5, 'center_y': .85}
+            size_hint:(0.5,0.15)
+            text: '7'
+            bold:True
+            italic:True
+            font_size:32
+            color: 0,0,0,1
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 0.2
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+        Label:
+            id: timer_label
+            pos_hint: {'center_x': .5, 'center_y': .65}
+            size_hint:(0.5,0.15)
+            text: '9'
+            bold:True
+            italic:True
+            font_size:32
+            color: 0,0,0,1
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 0.2
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+#<SecondWindow>:
+ #   name: 'second'
+  #  BoxLayout:
+  #      Button:
+  #          text: 'Previous'
+   #         on_release: app.root.current = 'first'
+    #        pos_hint: {'center_x': .5, 'center_y': .3}
+    #        size_hint:(0.5,0.25)
