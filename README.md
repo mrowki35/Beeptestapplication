@@ -10,7 +10,7 @@ This is a simple application designed to help you complete [Multi-stage fitness 
 4. [TODO](#todo)
 ---
 ## How it works
-After forking this repository the only thing you have to do to start is exec the  Python file.
+After forking this repository the only thing you have to do to start is exec the Beeptestalpha Python file.
 
 
 
