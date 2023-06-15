@@ -22,7 +22,10 @@ After forking this repository the only thing you have to do to start is exec the
 
 ---
 ## Getting Started
-Just press START button and start running.
+Just press the START button to begin running.
+The top label indicates the remaining time for each lap.
+The middle label shows the number of laps remaining at the current level.
+The bottom label indicates the current level you are on.
 
 ---
 ## TODO
