@@ -5,28 +5,23 @@ This is a simple application designed to help you complete [Multi-stage fitness 
 ---
 # Table of contents
 1. [How it works](#how-it-works)
-2. [Example](#example)
-3. [Libraries Used](#libraries-used)
-4. [Getting Started](#getting-started)
-5. [TODO](#todo)
+2. [Libraries Used](#libraries-used)
+3. [Getting Started](#getting-started)
+4. [TODO](#todo)
 ---
 ## How it works
-After forking this repository the only thing you have to do to start is exec the main Python file.
+After forking this repository the only thing you have to do to start is exec the  Python file.
 
 
 
 ---
 
-## How to use it mobile
-
-
----
 ## Libraries Used
 - Kivy
 
 ---
 ## Getting Started
-
+Just press START button and start running.
 
 ---
 ## TODO
