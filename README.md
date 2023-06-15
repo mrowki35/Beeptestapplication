@@ -12,7 +12,8 @@ This is a simple application designed to help you complete [Multi-stage fitness 
 ## How it works
 After forking this repository the only thing you have to do to start is exec the Beeptestalpha Python file.
 
-
+![START](1.png)
+![STOP](2.png)
 
 ---
 
